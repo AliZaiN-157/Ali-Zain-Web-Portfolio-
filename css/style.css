@@ -1,0 +1,114 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/* html,body,header{
+    height: 100px;
+} */
+.navbar {
+    background-color: transparent;
+}
+.navbar-toggler .navbar-toggler-icon{
+    color: white !important;
+}
+
+.top-nav-collapse {
+    background-color: #4285F4;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+}
+
+.Desc{
+    font-weight: bold;
+    margin: auto;
+    color: white;
+}
+.text-show span{
+    color: white;
+    font-size: 23px;
+}
+
+.thumbnail img{
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    margin: auto;    
+}
+.Main{
+    width: 100% !important;
+    justify-content: center;
+    height: 100%;
+    /* margin-top: 5px; */
+}
+
+.row {
+    width: 100% !important;
+    padding-top: 140px;
+    padding-bottom: 140px;
+
+}
+
+.text-muted span{
+    font-weight: lighter;
+    font-size: 50px;
+    color: #00adb5 !important;    
+}
+.text-show span{
+    color: white;
+}
+.background {
+    background: rgba(0, 0, 0, 0.7) url('../img/img2.jpeg')no-repeat center center; 
+    background-blend-mode: darken;
+    background-size: cover;
+    width: 100%;
+}
+.aboutme{
+    width: 100%;
+    height: auto;
+    /* margin-top: 100px !important; */
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    margin-top: 40px;
+}
+
+.about{
+    width: 100%;
+}
+.aboutme ul {
+    list-style-type: none;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 30px auto;
+    /* justify-content: center; */
+}
+.cards .leftside {
+    color: white;
+    font-size: 18px;
+    margin: auto;
+    justify-content: left;
+    text-align: left;
+}
+.cards .rightside {
+    color: white;
+    font-size: 18px;
+    margin: auto;
+    justify-content: left;
+    text-align: left;
+}
+.Project{
+    width: 100%;
+    height: 500px;
+    /* background-color: black; */
+    margin-top: 2px;
+    padding: 2px;
+}
